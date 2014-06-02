@@ -1,0 +1,117 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+/* General Print Style */
+body{
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: black;
+	padding: 30px;
+
+}
+h1,h2,h3{
+font-family: 'Crimson Text', Times, serif;
+}
+h1{
+	font-size: 34px;
+}
+h1 em{
+	font-style:normal;
+	font-size: 24px;
+}
+h2{
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #215868;
+	border-bottom:solid thin;
+	margin-bottom: 8px;
+	
+}
+h3{
+	font-size: 20px;
+}
+nav{
+	display:none;
+}
+
+#footer{
+	display:none;
+}
+
+section{
+	margin-top: 22px;
+	margin-bottom: 22px;
+}
+ul {
+	list-style:disc outside;
+	margin-left: 18px;
+}
+table, td, th
+{
+	vertical-align:top;
+}
+th, td{
+	padding-left:10px;
+	padding-right:30px;
+}
+td{
+	border-left:solid thin #215868;
+}
+table.jobheader{
+	width: 100%;
+}
+table.jobheader, table.jobheader td, table.jobheader th{
+	border:none;
+}
+table.jobheader th{
+padding-left:0px;
+padding-right:5px;
+}
+
+table.jobheader td{
+	text-align:right;
+	color: #215868;
+	padding-left:5px;
+	padding-right:5px;
+}
+
