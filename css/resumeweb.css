@@ -147,7 +147,7 @@ section.content{
 	transition: opacity .6s ease-in-out;
 }
 
-nav a #link-performanceprofile:hover  ~ #performanceprofile{
+nav a #link-resume:hover  ~ #resume{
 	opacity: 1;
 }
 
